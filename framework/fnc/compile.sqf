@@ -17,6 +17,8 @@ if (isServer) then {
   };
   // Persistence
   if (rrfPersistence == 1) then {
+    rrf_fnc_persistence_player_serverStoreLoadouts =  compile preprocessfilelinenumbers 'framework\fnc\persistence\player\serverStoreLoadouts.sqf';
+    rrf_fnc_persistence_player_serverStorePositions =  compile preprocessfilelinenumbers 'framework\fnc\persistence\player\serverStorePositions.sqf';
     rrf_fnc_persistence_player_serverStoreLoadout =  compile preprocessfilelinenumbers 'framework\fnc\persistence\player\serverStoreLoadout.sqf';
     rrf_fnc_persistence_player_serverStorePosition =  compile preprocessfilelinenumbers 'framework\fnc\persistence\player\serverStorePosition.sqf';
     rrf_fnc_persistence_player_serverRestoreLoadout =  compile preprocessfilelinenumbers 'framework\fnc\persistence\player\serverRestoreLoadout.sqf';

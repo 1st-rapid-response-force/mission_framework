@@ -8,11 +8,3 @@ _player = _this select 0;
 _playerName = name _player;
 _playerUUID = getPlayerUID _player;
 _ownerID = _this select 1;
-
-while {true} do {
-        sleep 60;
-
-        // Credit Playtime
-        //_h = [_playerUUID] call rrf_fnc_analytics_playtimeEvent;
-        
-    };

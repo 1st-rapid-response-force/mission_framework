@@ -8,7 +8,7 @@
 _player = _this select 0;
 
 while {true} do {
-        sleep 15;  
+        sleep 60;  
         // Save Loadout
         _h = [_player] call rrf_fnc_persistence_player_getPlayerLoadout;
 
@@ -18,3 +18,4 @@ while {true} do {
         // Save Medical Status
         //_h = [_player] call rrf_fnc_persistence_medical_getPlayerMedical;
     };
+
