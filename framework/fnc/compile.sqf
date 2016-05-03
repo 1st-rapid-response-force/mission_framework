@@ -92,14 +92,6 @@ if (!isDedicated) then {
     rrf_fnc_loadout_getLoadout = compile preprocessfilelinenumbers "framework\fnc\armory\getLoadout.sqf";
   };
 
-  rrf_fnc_toc_setupTOC = compile preprocessfilelinenumbers "framework\fnc\toc\setupTOC.sqf";
-  rrf_fnc_toc_openCoalaOS = compile preprocessfilelinenumbers "framework\fnc\toc\openCoalaOS.sqf";
-
-  if (rrfPersistence == 1) then {
-    rrf_fnc_loops_criticalLoop = compile preprocessfilelinenumbers "framework\fnc\loops\critical_loop.sqf";
-    rrf_fnc_loops_nonCriticalLoop = compile preprocessfilelinenumbers "framework\fnc\loops\non_critical_loop.sqf";
-  };
-
 };
 
 if (debugEnabled == 1) then {
